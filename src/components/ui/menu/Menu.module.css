@@ -1,0 +1,24 @@
+.menu {
+  padding: 0.2em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 5px;
+  position: absolute;
+}
+
+.menuButton {
+  opacity: 70%;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 18px;
+  padding: 0.4em;
+  text-decoration: none;
+}
+
+.menuButton:hover {
+  opacity: 100%;
+  cursor: pointer;
+  border: 1px solid #999;
+  color: #333;
+  text-decoration: none;
+}
